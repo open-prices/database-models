@@ -1,0 +1,248 @@
+[
+{
+	"barcode" : 7622300847210,
+	"name" : "Express clásicas"
+},
+{
+	"barcode" : 7798094424170,
+	"name" : "Polvo desodorante"
+},
+{
+	"barcode" : 7790742108807,
+	"name" : "Leche Entera La Serenísima"
+},
+{
+	"barcode" : 7790895067594,
+	"name" : "CocaCola Zero 237ml",
+	"prices" : [
+		{
+			"price" : 10,
+			"date" : "2016-02-17",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : null
+		}
+	]
+},
+{
+	"barcode" : 7790040929906,
+	"name" : "Chocolinas",
+	"prices" : [
+		{
+			"price" : 11.74,
+			"date" : "2016-02-17",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 30589621499
+		}
+	]
+},
+{
+	"barcode" : 7796613011764,
+	"name" : "Atún desmenuzado m&k",
+	"prices" : [
+		{
+			"price" : 10.74,
+			"date" : "2016-02-17",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 30589621499
+		}
+	]
+},
+{
+	"barcode" : 7797234081150,
+	"name" : "Pimienta negra en grano m&k",
+	"prices" : [
+		{
+			"price" : 102.98,
+			"date" : "2016-02-17",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 30589621499
+		}
+	]
+},
+{
+	"barcode" : 7791200000091,
+	"name" : "Cynar 900ml",
+	"prices" : [
+		{
+			"price" : 72.67,
+			"date" : "2016-02-17",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 30589621499
+		}
+	]
+},
+{
+	"barcode" : 7790613001976,
+	"name" : "Cunnington Cola 2.25l",
+	"prices" : [
+		{
+			"price" : 13.14,
+			"date" : "2016-02-17",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 30589621499
+		}
+	]
+},
+{
+	"barcode" : 7790613000002,
+	"name" : "Cunnington Pomelo Light 2.25l",
+	"prices" : [
+		{
+			"price" : 14.88,
+			"date" : "2016-02-17",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 30589621499
+		}
+	]
+},
+{
+	"barcode" : 7798019800027,
+	"name" : "Yerba Las Tunas 1kg",
+	"prices" : [
+		{
+			"price" : 50.25,
+			"date" : "2016-02-19",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 20342510044
+		},
+		{
+			"price" : 51,
+			"date" : "2016-03-18",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 20342510044
+		}
+	]
+},
+{
+	"barcode" : 7798013103155,
+	"name" : "Leberwurst Cagnoli",
+	"prices" : [
+		{
+			"price" : 16.66,
+			"date" : "2016-02-17",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 30589621499
+		}
+	]
+},
+{
+	"barcode" : 7891167011779,
+	"name" : "Atún desmenuzado Gomes",
+	"prices" : [
+		{
+			"price" : 25,
+			"date" : "2016-02-22",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 30713401400
+		}
+	]
+},
+{
+	"barcode" : 7790040377707,
+	"name" : "Criollitas Original",
+	"prices" : [
+		{
+			"price" : 8,
+			"date" : "2016-02-25",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 30709368237
+		},
+		{
+			"price" : 10,
+			"date" : "2016-03-04",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 20342510044
+		}
+	]
+},
+{
+	"barcode" : 7790310005712,
+	"name" : "Doritos",
+	"prices" : [
+		{
+			"price" : 43,
+			"date" : "2016-02-24",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 30709368237
+		}
+	]
+},
+{
+	"barcode" : 7793147000981,
+	"name" : "Imperial Lager",
+	"prices" : [
+		{
+			"price" : 22.89,
+			"date" : "2016-02-25",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 30589621499
+		},
+		{
+			"price" : 19.87,
+			"date" : "2016-03-05",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 30589621499
+		}
+	]
+},
+{
+	"barcode" : 7792798006199,
+	"name" : "Stella Atrois",
+	"prices" : [
+		{
+			"price" : 36.51,
+			"date" : "2016-02-25",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 30589621499
+		}
+	]
+},
+{
+	"barcode" : 7622300829520,
+	"name" : "Terrabusi Variedad",
+	"prices" : [
+		{
+			"price" : 29.39,
+			"date" : "2016-02-25",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 30589621499
+		}
+	]
+},
+{
+	"barcode" : 7794536191136,
+	"name" : "Pela y pica ajo",
+	"prices" : [
+		{
+			"price" : 86.90,
+			"date" : "2016-02-21",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 30589621499
+		}
+	]
+},
+{
+	"barcode" : 7798126071136,
+	"name" : "Gaona Pepas Light",
+	"prices" : [
+		{
+			"price" : 21,
+			"date" : "2016-04-18",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 30709368237
+		}
+	]
+},
+{
+	"barcode" : "03800084674",
+	"name" : "Pringles",
+	"prices" : [
+		{
+			"price" : 28,
+			"date" : "2016-11-01",
+			"username" : "axel.dolce@gmail.com",
+			"vendor" : 30708772964
+		}
+	]
+}
+]
