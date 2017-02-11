@@ -20,5 +20,8 @@
     "pg": "^6.1.2",
     "pg-hstore": "^2.3.2",
     "sequelize": "^3.28.0"
+  },
+  "devDependencies": {
+    "node-afip": "^1.0.4"
   }
 }
