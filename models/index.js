@@ -1,22 +1,29 @@
-var models = [
-    'Price',
-    'Product', 'ProductName',
-    'User',
-    'Vendor'
-    ]
+var Price = require('./Price')
+var Product = require('./Product')
+var ProductName = require('./ProductName')
+var User = require('./User')
+var Vendor = require('./Vendor')
+
+var models = {
+    Price,
+    Product,
+    ProductName,
+    User,
+    Vendor
+}
 
 module.exports = {
 
-    createModels(sequelize, DataTypes){
-        models.map(name => {
-            return require('./'+name)
-        }).map(factory => {
-            factory(sequelize, DataTypes)
+    models,
+
+    createModels(sequelize, DataTypes) {
+        return Object.keys(models).map(name => {
+            return models[name](sequelize, DataTypes)
         })
     },
 
-    createRelations(sequelize){
-        
+    createRelations(sequelize) {
+
         var {
             Price,
             Product, ProductName,
@@ -30,7 +37,7 @@ module.exports = {
 
         Product.hasMany(ProductName)
         Product.hasMany(Price)
-        Product.belongsToMany(Vendor, { through : 'VendorProduct' })
+        Product.belongsToMany(Vendor, { through: 'VendorProduct' })
 
         ProductName.belongsTo(User)
         ProductName.belongsTo(Product)
@@ -39,7 +46,7 @@ module.exports = {
         User.hasMany(ProductName)
 
         Vendor.hasMany(Price)
-        Vendor.belongsToMany(Product, { through : 'VendorProduct' })
+        Vendor.belongsToMany(Product, { through: 'VendorProduct' })
 
     }
 
